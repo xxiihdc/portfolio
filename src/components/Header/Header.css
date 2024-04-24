@@ -1,0 +1,8 @@
+.d-brand {
+  display: inline-block;
+  color: #d92cf9 !important;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 33px 0px 57px;
+  text-transform: uppercase;
+}

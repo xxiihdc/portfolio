@@ -1,14 +1,14 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import Navbar from './Navbar';
+import Card from './Card';
 
-describe('<Navbar />', () => {
+describe('<Card />', () => {
   test('it should mount', () => {
-    render(<Navbar />);
+    render(<Card />);
     
-    const navbar = screen.getByTestId('Navbar');
+    const card = screen.getByTestId('Card');
 
-    expect(navbar).toBeInTheDocument();
+    expect(card).toBeInTheDocument();
   });
 });
